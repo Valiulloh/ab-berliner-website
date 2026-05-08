@@ -1,0 +1,15 @@
+export const company = {
+  name: "A.B. Berliner Baumanagement GmbH",
+  shortName: "A.B. Berliner",
+  tagline: "Renovierung, Sanierung & Baumanagement in Berlin",
+  address: "Pariser Str. 44, 10707 Berlin",
+  phone: "+49 155 60347000",
+  phoneHref: "tel:+4915560347000",
+  whatsappHref: "https://wa.me/4915560347000",
+  email: "a.b.berliner.baumanagement@web.de",
+  emailHref: "mailto:a.b.berliner.baumanagement@web.de",
+  managingDirector: "Javlon Bakhronov",
+  registerNumber: "HRB 264935 B",
+  registerCourt: "Amtsgericht Berlin-Charlottenburg",
+  city: "Berlin",
+};
