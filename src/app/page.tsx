@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Process } from "@/components/Process";
+import { ProjectsPreview } from "@/components/ProjectsPreview";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <WhyChooseUs />
         <Process />
+        <ProjectsPreview />
         <ContactSection />
       </main>
 
