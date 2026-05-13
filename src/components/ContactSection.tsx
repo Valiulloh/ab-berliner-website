@@ -1,6 +1,20 @@
+"use client";
+
+import { useState } from "react";
 import { company } from "@/data/company";
 
 export function ContactSection() {
+  const [name, setName] = useState("");
+  const [contact, setContact] = useState("");
+  const [message, setMessage] = useState("");
+
+  const subject = encodeURIComponent("Neue Anfrage über die Website");
+  const body = encodeURIComponent(
+    `Name: ${name}\nKontakt: ${contact}\n\nNachricht:\n${message}`
+  );
+
+  const mailtoHref = `${company.emailHref}?subject=${subject}&body=${body}`;
+
   return (
     <section id="kontakt" className="bg-white py-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2">
@@ -63,6 +77,8 @@ export function ContactSection() {
               </label>
               <input
                 type="text"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
                 className="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 outline-none focus:border-gray-950"
                 placeholder="Ihr Name"
               />
@@ -74,6 +90,8 @@ export function ContactSection() {
               </label>
               <input
                 type="text"
+                value={contact}
+                onChange={(event) => setContact(event.target.value)}
                 className="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 outline-none focus:border-gray-950"
                 placeholder="Kontaktmöglichkeit"
               />
@@ -85,22 +103,23 @@ export function ContactSection() {
               </label>
               <textarea
                 rows={5}
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
                 className="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 outline-none focus:border-gray-950"
                 placeholder="Beschreiben Sie kurz Ihr Projekt"
               />
             </div>
 
-            <button
-              type="button"
-              className="rounded-full bg-yellow-400 px-7 py-4 text-sm font-bold text-gray-950 hover:bg-yellow-300"
+            <a
+              href={mailtoHref}
+              className="rounded-full bg-yellow-400 px-7 py-4 text-center text-sm font-bold text-gray-950 hover:bg-yellow-300"
             >
               Anfrage senden
-            </button>
+            </a>
 
             <p className="text-xs leading-6 text-gray-500">
-              Hinweis: Das Formular wird später technisch mit einer E-Mail-Lösung
-              verbunden. Für die erste Version können Kunden direkt per Telefon,
-              WhatsApp oder E-Mail Kontakt aufnehmen.
+              Beim Klick auf „Anfrage senden“ öffnet sich Ihr E-Mail-Programm
+              mit der vorbereiteten Nachricht.
             </p>
           </div>
         </form>
