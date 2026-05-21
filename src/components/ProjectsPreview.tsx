@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/data/projects";
 
 export function ProjectsPreview() {
@@ -15,9 +16,8 @@ export function ProjectsPreview() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Hier zeigen wir Beispiele für Renovierungs-, Sanierungs- und
-              Innenausbauarbeiten. Echte Projektfotos können später ergänzt
-              werden.
+              Entdecken Sie ausgewählte Projektbeispiele aus Renovierung, Sanierung,
+              Innenausbau, Bodenverlegung, Badsanierung und gewerblichen Arbeiten.
             </p>
           </div>
 
@@ -30,15 +30,18 @@ export function ProjectsPreview() {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {projects.map((project) => (
+          {projects.slice(0, 6).map((project) => (
             <div
               key={project.title}
               className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm"
             >
-              <div className="flex h-56 items-center justify-center bg-gray-100">
-                <span className="text-sm font-semibold text-gray-500">
-                  Projektfoto folgt
-                </span>
+              <div className="relative h-56 bg-gray-100">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <div className="p-7">

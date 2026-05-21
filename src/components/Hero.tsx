@@ -28,7 +28,7 @@ export function Hero() {
             </a>
 
             <a
-              href="#leistungen"
+              href="/leistungen"
               className="rounded-full border border-white/30 px-7 py-4 text-center text-sm font-bold text-white hover:bg-white hover:text-gray-950"
             >
               Leistungen ansehen

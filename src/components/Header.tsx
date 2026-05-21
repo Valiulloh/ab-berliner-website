@@ -6,10 +6,10 @@ import { company } from "@/data/company";
 
 const navItems = [
   { label: "Startseite", href: "/" },
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Über uns", href: "#ueber-uns" },
-  { label: "Projekte", href: "#projekte" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Leistungen", href: "leistungen" },
+  { label: "Über uns", href: "/#ueber-uns" },
+  { label: "Projekte", href: "/projekte" },
+  { label: "Kontakt", href: "/kontakt" },
 ];
 
 export function Header() {
