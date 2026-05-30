@@ -49,7 +49,7 @@ export function Hero() {
 
             <div className="rounded-2xl bg-yellow-400 p-6 text-gray-950">
               <p className="text-sm font-semibold">Standort</p>
-              <p className="mt-2 text-2xl font-bold">Berlin & Umgebung</p>
+              <p className="mt-2 text-2xl font-bold">Deutschland</p>
             </div>
 
             <div className="rounded-2xl bg-white p-6 text-gray-950">
