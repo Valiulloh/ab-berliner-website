@@ -10,33 +10,36 @@ const projectGroups = [
     title: "Küche & Einbaumöbel",
     category: "Villa Sanierung",
     description:
-      "Maßgefertigte Küchen- und Einbaumöbel mit Natursteinflächen, Glasvitrinen, hochwertigen Geräten und Fischgrätparkett. Die Arbeiten verbinden klare Linien, edle Materialien und präzise Ausführung.",
+      "Maßgefertigte Küchen- und Einbaumöbel mit Natursteinflächen, Glasvitrinen, hochwertigen Geräten und Fischgrätparkett. Die Ausführung verbindet klassische Eleganz mit moderner Funktionalität.",
+    tags: ["Einbaumöbel", "Naturstein", "Fischgrätparkett"],
     images: [
-      "/projects/villa-sanierung/villa-sanierung-berlin-1.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-35.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-4.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-67.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-71.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-66.jpg",
     ],
   },
   {
     title: "Badezimmer & Naturstein",
     category: "Badsanierung",
     description:
-      "Exklusive Badbereiche mit Naturstein, großen Spiegelflächen, Maßmöbeln und indirekter Beleuchtung. Hochwertige Oberflächen sorgen für ein modernes und elegantes Gesamtbild.",
+      "Exklusive Badbereiche mit Naturstein, großen Spiegelflächen, Maßmöbeln und indirekter Beleuchtung. Hochwertige Materialien und präzise Details schaffen ein modernes, elegantes Gesamtbild.",
+    tags: ["Badsanierung", "Naturstein", "Maßmöbel"],
     images: [
-      "/projects/villa-sanierung/villa-sanierung-berlin-16.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-17.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-28.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-70.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-59.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-64.jpg",
     ],
   },
   {
-    title: "Pool & Wellnessbereich",
-    category: "Wellnessbereich",
+    title: "Ankleide & Maßmöbel",
+    category: "Innenausbau",
     description:
-      "Moderner Wellnessbereich mit Pool, Sauna, Natursteinflächen und stimmungsvoller Lichtgestaltung. Die Kombination aus Wasser, Licht und ruhigen Oberflächen schafft eine hochwertige Atmosphäre.",
+      "Hochwertiger Innenausbau mit maßgefertigten Schrankanlagen, beleuchteten Regalen, Glasflächen und edlen Holzoberflächen. Die Räume wurden funktional geplant und sauber ausgeführt.",
+    tags: ["Innenausbau", "Maßanfertigung", "Beleuchtung"],
     images: [
-      "/projects/villa-sanierung/villa-sanierung-berlin-40.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-41.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-42.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-62.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-29.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-73.jpg",
     ],
   },
   {
@@ -44,10 +47,11 @@ const projectGroups = [
     category: "Sanierung im Bestand",
     description:
       "Großzügiger Wohnbereich mit Galerie, Kamin, Holzgeländer, Lichtakzenten und hochwertiger Bodenverlegung. Der Raum zeigt die Verbindung aus klassischem Bestand und moderner Sanierung.",
+    tags: ["Sanierung", "Galerie", "Kaminbereich"],
     images: [
-      "/projects/villa-sanierung/villa-sanierung-berlin-31.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-29.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-30.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-56.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-60.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-42.jpg",
     ],
   },
   {
@@ -55,9 +59,10 @@ const projectGroups = [
     category: "Bodenverlegung",
     description:
       "Hochwertige Bodenarbeiten mit Fischgrätparkett, sauberer Verlegung und edler Oberfläche. Die präzise Ausführung gibt den Räumen eine warme und repräsentative Wirkung.",
+    tags: ["Bodenverlegung", "Parkett", "Fischgrät"],
     images: [
-      "/projects/villa-sanierung/villa-sanierung-berlin-10.jpg",
-      "/projects/villa-sanierung/villa-sanierung-berlin-39.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-65.jpg",
+      "/projects/villa-sanierung/villa-sanierung-berlin-40.jpg",
       "/projects/villa-sanierung/villa-sanierung-berlin-12.jpg",
     ],
   },
@@ -65,11 +70,24 @@ const projectGroups = [
     title: "Pool & Wellnessbereich",
     category: "Wellnessbereich",
     description:
-      "Moderner Wellnessbereich mit Pool, Sauna, Natursteinflächen und stimmungsvoller Lichtgestaltung. Die ruhigen Oberflächen, klaren Linien und warmen Lichtakzente schaffen eine exklusive Atmosphäre.",
+      "Moderner Wellnessbereich mit Pool, Sauna, Natursteinflächen und stimmungsvoller Lichtgestaltung. Die Kombination aus Wasser, Licht und ruhigen Oberflächen schafft eine exklusive Atmosphäre.",
+    tags: ["Pool", "Sauna", "Naturstein"],
     images: [
       "/projects/villa-sanierung/villa-sanierung-berlin-48.jpg",
       "/projects/villa-sanierung/villa-sanierung-berlin-47.jpg",
       "/projects/villa-sanierung/villa-sanierung-berlin-54.jpg",
+    ],
+  },
+  {
+    title: "Gewerbliche Innenräume",
+    category: "Gewerbliche Renovierung",
+    description:
+      "Moderne Gewerbeflächen mit klarer Raumgestaltung, hellen Oberflächen, Sitzbereichen und hochwertiger Ausführung für Empfangs- und Bürobereiche.",
+    tags: ["Gewerbe", "Empfangsbereich", "Bürofläche"],
+    images: [
+      "/projects/villa-sanierung/gewerbe-modern-berlin-4.jpg",
+      "/projects/villa-sanierung/gewerbe-modern-berlin-3.jpg",
+      "/projects/villa-sanierung/gewerbe-modern-berlin-5.jpg",
     ],
   },
 ];
@@ -86,7 +104,7 @@ export default function ProjektePage() {
           <div className="absolute inset-0">
             <Image
               src="/hero/hero-baumanagement-renovierung.jpg"
-              alt="Villa Sanierung Berlin"
+              alt="A.B. Berliner Baumanagement Projekte"
               fill
               priority
               className="object-cover opacity-35"
@@ -100,13 +118,13 @@ export default function ProjektePage() {
               </p>
 
               <h1 className="mt-5 text-4xl font-black tracking-tight md:text-6xl">
-                Villa Sanierung in Berlin
+                Ausgewählte Arbeiten
               </h1>
 
               <p className="mt-6 text-lg leading-8 text-gray-200">
-                Ein hochwertiges Sanierungsprojekt mit Innenausbau,
-                Parkettarbeiten, Badsanierung, Wellnessbereich und
-                maßgefertigten Einbauten.
+                Einblick in hochwertige Sanierungs- und Ausbauarbeiten:
+                Villa-Sanierung, Innenausbau, Badsanierung, Bodenverlegung,
+                Wellnessbereich und gewerbliche Renovierung.
               </p>
 
               <p className="mt-5 text-sm font-semibold text-gray-300">
@@ -147,7 +165,7 @@ export default function ProjektePage() {
                   </div>
 
                   <div className="p-8 md:p-10">
-                    <div className="grid gap-6 md:grid-cols-[260px_1fr] md:items-start">
+                    <div className="grid gap-6 md:grid-cols-[280px_1fr] md:items-start">
                       <div>
                         <p className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-600">
                           {project.category}
@@ -164,15 +182,14 @@ export default function ProjektePage() {
                         </p>
 
                         <div className="mt-6 flex flex-wrap gap-3">
-                          <span className="rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700">
-                            Innenausbau
-                          </span>
-                          <span className="rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700">
-                            Hochwertige Ausführung
-                          </span>
-                          <span className="rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700">
-                            Berlin
-                          </span>
+                          {project.tags.map((tag) => (
+                            <span
+                              key={tag}
+                              className="rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700"
+                            >
+                              {tag}
+                            </span>
+                          ))}
                         </div>
                       </div>
                     </div>
