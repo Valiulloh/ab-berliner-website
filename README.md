@@ -1,52 +1,74 @@
 # AB Berliner Website
 
-A responsive freelance client website built for AB Berliner using Next.js and TypeScript.
+Professional business website developed for a freelance client using Next.js and TypeScript.
 
 ## Overview
 
-This project is a modern business website developed for a freelance client.  
-The goal was to create a clean, responsive, and professional online presence with fast performance and easy navigation.
+AB Berliner is a production-ready business website created for a real freelance client.  
+The project focuses on responsive design, performance, user experience, and a clean professional online presence.
 
-## Live Demo
+## Live Website
 
 https://ab-berliner.de
 
 ## Features
 
-- Responsive layout for desktop, tablet, and mobile
-- Modern landing page design
+- Responsive design for desktop, tablet, and mobile
+- Modern business landing page
 - Services section
-- Projects section
+- Project showcase section
 - Contact section
-- Smooth navigation
-- Deployed on Vercel
+- SEO-friendly structure
+- Production deployment
 
 ## Tech Stack
 
+### Frontend
 - Next.js
-- TypeScript
 - React
-- CSS / Tailwind CSS
+- TypeScript
+
+### Styling
+- CSS
+- Responsive Design
+
+### Deployment
 - Vercel
 
 ## Project Type
 
-Freelance client website
+Freelance Client Project
 
 ## Screenshots
 
-Add screenshots here:
+### Homepage
 
 ![Homepage](screenshots/homepage.png)
 
+### Services Section
+
 ![Services](screenshots/services.png)
 
-![Contact](screenshots/contact.png)
+### Mobile View
+
+![Mobile View](screenshots/mobile.png)
+
+## Challenges Solved
+
+- Built a responsive layout for different screen sizes
+- Improved website structure and navigation
+- Created a maintainable Next.js project
+- Delivered a production-ready website for a real client
 
 ## What I Learned
 
-- Building a production-ready client website
-- Working with Next.js and TypeScript
-- Deploying frontend applications with Vercel
-- Improving responsive design and UI structure
-- Managing a real freelance project
+- Working with a real freelance client
+- Building professional websites with Next.js
+- Using TypeScript in frontend development
+- Deploying and maintaining a website with Vercel
+- Improving responsive UI design
+
+## Author
+
+**Valiyulloh Mamatqulov**  
+Software Engineering Student & Full Stack Developer
